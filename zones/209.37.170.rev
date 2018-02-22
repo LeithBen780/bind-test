@@ -1,0 +1,20 @@
+224/27.170.37.209.in-addr.arpa.	3600	 SOA	ns1.fwwebb.com. lmaccall.fwwebb.com. (
+			1197998440
+			10800
+			3600
+			604800
+			38400 )
+224/27.170.37.209.in-addr.arpa.	3600	NS	ns1.fwwebb.com.
+224/27.170.37.209.in-addr.arpa.	3600	NS	ns3.fwwebb.com.
+
+228	3600	PTR	cdrfw.fwwebb.com.
+233	3600	PTR	ns3.fwwebb.com.
+234	3600	PTR	ns1.fwwebb.com.
+233	3600	PTR	ns3.madisonplumbingsupply.com.
+234	3600	PTR	ns1.madisonplumbingsupply.com.
+233	3600	PTR	mobilewebbScan.fwwebb.com.
+233	3600	PTR	mobilewebbCoder.fwwebb.com.
+233	3600	PTR	mobileshopList.fwwebb.com.
+235	3600	PTR mail.fwwebb.com.
+235	3600	PTR smtp.fwwebb.com.
+236	3600	PTR websensemail.fwwebb.com.

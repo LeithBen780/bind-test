@@ -1,0 +1,30 @@
+$ORIGIN .
+$TTL 38400	; 10 hours 40 minutes
+20.168.192.in-addr.arpa	IN SOA	srv1.dmz.fwwebb.com. lmaccall.dmz.fwwebb.com. (
+				1198001733 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	ns1.internal.fwwebb.com.
+$ORIGIN 20.168.192.in-addr.arpa.
+1			PTR	ns1.internal.fwwebb.com.
+$TTL 1800	; 30 minutes
+142			PTR	LAU94N.fwwebbcorp.fwwebb.com.
+148			PTR	lmaccall-laptop.dmz.fwwebb.com.
+165			PTR	cactop.dmz.fwwebb.com.
+$ORIGIN 192.20.168.192.in-addr.arpa.
+$TTL 7200	; 2 hours
+36.20.168		PTR	lmaccall-laptop.dmz.fwwebb.com.
+$ORIGIN 20.168.192.in-addr.arpa.
+$TTL 1800	; 30 minutes
+197			PTR	ITLAPTOP.fwwebbcorp.fwwebb.com.
+$TTL 7200	; 2 hours
+198			PTR	JSP2N.fwwebbcorp.fwwebb.com.
+$TTL 1800	; 30 minutes
+36			PTR	lmaccall-laptop.fwwebbcorp.fwwebb.com.
+38			PTR	tlarsond630.dmz.fwwebb.com.
+40			PTR	Omni94d.fwwebbcorp.fwwebb.com.
+41			PTR	DELL319CE8.dmz.fwwebb.com.
+42			PTR	xyzzy.dmz.fwwebb.com.

@@ -1,0 +1,15 @@
+$TTL 38400
+$ORIGIN 116.236.68.in-addr.arpa.
+@	1D	IN	SOA	srv1.fwwebb.com. lmaccall.fwwebb.com. (
+			1197998440
+			10800
+			3600
+			604800
+			38400 )
+	IN	NS	ns3.fwwebb.com.
+
+132	IN	PTR	mail.fwwebb.com.
+152	IN	PTR	mailserver.fwwebb.com.
+155	IN	PTR	fw1.fwwebb.com.
+156	IN	PTR	ns3.fwwebb.com.
+157	IN	PTR	im.fwwebb.com.
