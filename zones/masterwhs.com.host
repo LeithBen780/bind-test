@@ -1,0 +1,20 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+masterwhs.com	IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				102
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+			;MX	10	192.185.153.107
+$ORIGIN masterwhs.com.
+localhost		A	127.0.0.1
+;www			A	192.185.153.107
+www			A	209.37.170.233
+9amguheuwe.masterwhs.com. A 86.111.217.190
+
