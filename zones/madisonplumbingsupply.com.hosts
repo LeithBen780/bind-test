@@ -1,0 +1,39 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+madisonplumbingsupply.com	IN SOA	ns1.fwwebb.com. webmaster.madisonplumbingsupply.com. (
+				102
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.madisonplumbingsupply.com.
+			NS	ns3.madisonplumbingsupply.com.
+;			A	108.170.95.155
+			A	209.37.170.246
+
+			MX	100	cust15336-1.in.mailcontrol.com.
+			MX	100	cust15336-2.in.mailcontrol.com.
+
+$ORIGIN madisonplumbingsupply.com.
+localhost		A	127.0.0.1
+hkugkmxgxn 	CNAME autodomain.mailcontrol.com
+www		CNAME   madisonplumbingsupply.com.
+test		A	10.94.167.14
+qa			A	209.37.170.234
+prod		A	209.37.170.233
+;mail		A	10.94.0.211
+smtp		A	10.94.0.211
+smtps		A	209.37.170.235
+mail		A	209.37.170.235
+ns1 		A   209.37.170.234
+ns2 		A   12.15.136.228
+ns3 		A   209.37.170.233
+mailserver	A	209.37.170.235
+
+mailserver.madisionplumbingsupply.com.  TXT     "v=spf1 ip4:209.37.170.235 a mx:madisionplumbingsupply.com ~all"
+mailserver.madisionplumbingsupply.com.  TXT     "spf2.0/pra a mx -all"
+mailserver.madisionplumbingsupply.com.	TXT		"v=spf1 ip4:209.37.170.235 a mx a:mail.madisionplumbingsupply.com -all"
+madisionplumbingsupply.com. 			TXT		"v=spf1 ip4:209.37.170.235 a mx include:mailserver.madisionplumbingsupply.com ~all"
+madisionplumbingsupply.com. 			SPF		"v=spf1 ip4:209.37.170.235 a mx -all"
+madisionplumbingsupply.com.				SPF		"v=spf1 ip4:209.37.170.235 a mx a:mail.madisionplumbingsupply.com -all"

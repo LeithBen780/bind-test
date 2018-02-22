@@ -1,0 +1,26 @@
+$ORIGIN .
+$TTL 38400	; 10 hours 40 minutes
+dmz.fwwebb.com		IN SOA	ns1.internal.fwwebb.com. lmaccall.fwwebb.com. (
+				1243941975 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	ns1.internal.fwwebb.com.
+$TTL 14400	; 4 hours
+			A	10.94.185.29
+$ORIGIN dmz.fwwebb.com.
+$TTL 1800	; 30 minutes
+cactop			A	192.168.20.165
+			TXT	"31bb0fd871e981f35a247486d47ec56262"
+DELL319CE8		A	192.168.20.41
+			TXT	"00736c77648aabee740f209788637ba61b"
+$TTL 38400	; 10 hours 40 minutes
+localhost		A	127.0.0.1
+$TTL 14400	; 4 hours
+srv1			A	10.94.185.29
+$TTL 1800	; 30 minutes
+tlarsond630		A	192.168.20.38
+			TXT	"31408115eb884fc37394ecc0310ed6e8e9"
+test			A	192.168.20.168

@@ -1,0 +1,47 @@
+$ttl	38400
+@	86400	IN	SOA	postmaster.bergenindustrial.com. root.postmaster.bergenindustrial.com.  ( 
+	103 ; serial
+	3600 ; refresh
+	7200 ; retry
+	604800 ; expire
+	86400 ; TTL
+	) 
+	84600   IN  NS ns1.fwwebb.com.
+	84600   IN  NS ns3.fwwebb.com.
+	NS      ns1.fwwebb.com.
+	NS      ns3.fwwebb.com.
+	MX	100	cust15336-1.in.mailcontrol.com.
+	MX	100	cust15336-2.in.mailcontrol.com.
+	A       209.37.170.233
+
+
+bergenindustrial.com.	84600	IN	A	209.37.170.233
+6dray7fwh7	86400	IN	A	86.111.217.190 
+www	86400	IN	A	209.37.170.233
+acclaim	86400	IN	A	75.99.96.158
+altigen	86400   IN  A   75.99.96.154
+b2b	86400   IN  A   75.99.96.156
+sbs	86400   IN  A   75.99.96.157
+vpn	86400   IN  A   75.99.96.155
+
+
+;####### Original zone info from Network Solutions below
+;bergenindustrial.com.	84600	IN	A	75.99.96.157
+;www	86400	IN	A	75.99.96.156
+;www 75.99.96.156 
+;@ (None) 75.99.96.157 
+;* (All Others) 75.99.96.155 
+;acclaim .bergenindustrial.com 75.99.96.158 
+;altigen .bergenindustrial.com 75.99.96.154 
+;b2b .bergenindustrial.com 75.99.96.156 
+;sbs .bergenindustrial.com 75.99.96.157 
+;vpn .bergenindustrial.com 75.99.96.155 
+
+;bergenindustrial.com mail is handled by 90 bergenindustrial.com.bak-mx.na0102.smtpbak.com.
+;bergenindustrial.com mail is handled by 10 bergenindustrial.com.pri-mx.na0102.smtproutes.com.
+;bergenindustrial.com.pri-mx.na0102.smtproutes.com has address 5.10.67.142
+;bergenindustrial.com.pri-mx.na0102.smtproutes.com has address 208.43.37.148
+
+
+;####### END Original zone info from Network Solutions below
+

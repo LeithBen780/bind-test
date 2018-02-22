@@ -1,0 +1,18 @@
+$ORIGIN .
+$TTL 900        ; 15 minutes
+wwscorp.com     IN SOA  ns1.fwwebb.com. webmaster.fwwebb.com. (
+		2014102901 ; serial
+		28800      ; refresh (8 hours)
+		14400      ; retry (4 hours)
+		604800     ; expire (1 week)
+		900        ; minimum (15 minutes)
+		)
+		NS      ns1.fwwebb.com.
+		NS      ns2.fwwebb.com.
+		A       209.37.170.233
+		;MX      10 mail.mmcis.com.
+		MX	100	cust15336-1.in.mailcontrol.com.
+		MX	100	cust15336-2.in.mailcontrol.com.
+$ORIGIN wwscorp.com.
+localhost	A       127.0.0.1
+www			CNAME   wwscorp.com.

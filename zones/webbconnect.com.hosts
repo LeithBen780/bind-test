@@ -1,0 +1,14 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+webbconnect.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2007020101
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+			A	68.236.116.135
+			MX	10 mail.fwwebb.com.
+$ORIGIN webbconnect.com.
+www			CNAME	webbconnect.com.

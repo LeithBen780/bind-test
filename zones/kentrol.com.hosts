@@ -1,0 +1,29 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+kentrol.com	IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				2007070615
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+;			A	155.212.12.104
+;			A	205.178.189.131
+			A	144.121.25.3
+			MX	10 mail.fwwebb.com.
+$ORIGIN kentrol.com.
+localhost		A	127.0.0.1
+www			CNAME	kentrol.com.
+assets		A	144.121.25.3
+;sevco		A	68.236.116.132
+;;;;sevco		A	216.204.242.29
+sevco		A	209.37.170.233
+qa.sevco	A	209.37.170.234
+test.sevco	A	10.94.167.14
+scvsstest	A	68.236.116.132
+;sevco		A	144.121.25.3
+sevco.test	A	192.168.20.99
+;www.test	A	68.236.116.144
+www.test	A	192.168.20.99

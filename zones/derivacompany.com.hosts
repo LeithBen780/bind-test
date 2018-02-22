@@ -1,0 +1,19 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+derivacompany.com	IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				102
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+$ORIGIN derivacompany.com.
+localhost		A	127.0.0.1
+www			CNAME	derivacompany.com.
+test		A	10.94.167.14
+qa			A	209.37.170.234
+prod		A	209.37.170.233

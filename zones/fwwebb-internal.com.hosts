@@ -1,0 +1,70 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+fwwebb-internal.com	IN SOA	ns1.fwwebb-internal.com. webmaster.fwwebb-internal.com. (
+				2007100015 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900        ; minimum (15 minutes)
+				)
+			NS	ns1.fwwebb-internal.com.
+			A	10.94.185.29
+			MX	400 caracal.fwwebb-internal.com.
+$ORIGIN _msdcs.fwwebb-internal.com.
+a647b1ff-21d6-4da8-9e3d-e336c3a7edac CNAME srv1.fwwebb-internal.com.
+$ORIGIN _tcp.Bedford._sites.dc._msdcs.fwwebb-internal.com.
+_kerberos		SRV	0 100 88 srv1.fwwebb-internal.com.
+_ldap			SRV	0 100 389 srv1.fwwebb-internal.com.
+$ORIGIN _tcp.dc._msdcs.fwwebb-internal.com.
+_kerberos		SRV	0 100 88 srv1.fwwebb-internal.com.
+_ldap			SRV	0 100 389 srv1.fwwebb-internal.com.
+			SRV	1 0 389 srv1.fwwebb-internal.com.
+$ORIGIN _msdcs.fwwebb-internal.com.
+_ldap._tcp.9df7059d-ea3d-4165-b5a1-5f83968ef23d.domains	SRV 0 100 389 srv1.fwwebb-internal.com.
+$ORIGIN gc._msdcs.fwwebb-internal.com.
+_ldap._tcp.Bedford._sites SRV	0 100 3268 srv1.fwwebb-internal.com.
+_ldap._tcp		SRV	0 100 3268 srv1.fwwebb-internal.com.
+$ORIGIN _msdcs.fwwebb-internal.com.
+_ldap._tcp.pdc		SRV	0 100 389 srv1.fwwebb-internal.com.
+$ORIGIN fwwebb-internal.com.
+_ldap._tcp.dc._msdcsa	A	10.94.185.29
+$ORIGIN _tcp.Bedford._sites.fwwebb-internal.com.
+_gc			SRV	0 100 3268 srv1.fwwebb-internal.com.
+_kerberos		SRV	0 100 88 srv1.fwwebb-internal.com.
+_ldap			SRV	0 100 389 srv1.fwwebb-internal.com.
+$ORIGIN _tcp.fwwebb-internal.com.
+_gc			SRV	0 100 3268 srv1.fwwebb-internal.com.
+_kerberos		SRV	0 100 88 srv1.fwwebb-internal.com.
+_kpasswd		SRV	0 100 464 srv1.fwwebb-internal.com.
+_ldap			SRV	0 100 389 srv1.fwwebb-internal.com.
+			SRV	1 0 389 srv1.fwwebb-internal.com.
+$ORIGIN _udp.fwwebb-internal.com.
+_kerberos		SRV	0 100 88 srv1.fwwebb-internal.com.
+_kpasswd		SRV	0 100 464 srv1.fwwebb-internal.com.
+$ORIGIN fwwebb-internal.com.
+bobcat			A	10.94.1.124
+caracal			A	10.94.0.211
+_ldap._tcp.dc._msdcs.FWWEBB A	10.94.185.29
+$TTL 10800	; 3 hours
+ITMonitor		A	10.94.185.54
+			TXT	"31f1b1157e6b1ff234eb26f2a4c308ad2c"
+lmaccall-laptop		A	10.94.2.36
+			TXT	"31a2d2cb022ccbb7f23d055d7f50de4901"
+$TTL 900	; 15 minutes
+ns1			A	10.94.185.29
+$TTL 10800	; 3 hours
+PDL94D			A	10.94.185.101
+			TXT	"31f045de6631341a7ca48220b70a4bc70f"
+phocas			A	10.94.185.88
+			TXT	"3180c71d34c8a912377e9da7247e7e2635"
+PS-B93FED		A	10.94.186.100
+			TXT	"001e45b02241c499de52562864bffc3f9a"
+slb2			A	10.94.185.26
+			TXT	"00e559df8c74d250c4e54ee41724f53024"
+$TTL 900	; 15 minutes
+srv1			A	10.94.185.29
+			SRV	1 0 389 srv1
+wd1			A	10.94.185.34
+$TTL 10800	; 3 hours
+WODell			A	10.94.200.36
+			TXT	"317f429ec8081b5aa37a883445caffb296"

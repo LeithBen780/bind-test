@@ -1,0 +1,36 @@
+$ttl	38400
+@	84600	IN	SOA	postmaster.controlequip.com. root.postmaster.controlequip.com.  ( 
+	106 ; serial
+	3600 ; refresh
+	7200 ; retry
+	604800 ; expire
+	86400 ; TTL
+	) 
+	84600   IN  NS ns1.fwwebb.com.
+	84600   IN  NS ns3.fwwebb.com.
+
+;	84600	IN	MX	100 fwwebb.com.s6a1.psmtp.com.
+;	84600	IN	MX	200 fwwebb.com.s6a2.psmtp.com.
+;	84600	IN	MX	300 fwwebb.com.s6b1.psmtp.com.
+;	84600	IN	MX	400 fwwebb.com.s6b2.psmtp.com.
+	84600	IN	MX	100	cust15336-1.in.mailcontrol.com.
+	84600	IN	MX	100	cust15336-2.in.mailcontrol.com.
+
+;	84600	IN	MX 60 dauntless.cnchost.com.
+;	84600	IN	MX 10 invincible.cnchost.com.
+;	84600	IN	MX 20 hood.cnchost.com.
+;	84600	IN	MX 30 safeguard.cnchost.com.
+;	84600	IN	MX 40 zealous.cnchost.com.
+;	84600	IN	MX 50 inflexible.cnchost.com.
+;	84600	IN	MX 10 mail.fwwebb.com.
+
+
+;controlequip.com.	84600	IN	A	207.155.252.47
+controlequip.com.	84600	IN	A	144.121.25.3
+www	84600	IN	A	144.121.25.3
+www.test		A	192.168.20.99
+;www	84600	IN	A	207.155.252.15
+;	84600	IN	A	207.155.252.47
+;	84600	IN	A	207.155.252.72
+;	84600	IN	A	207.155.252.219
+

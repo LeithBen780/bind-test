@@ -1,0 +1,25 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+victormfg.com		IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				2006011011 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+			A	144.121.25.1
+			MX	10 mail.fwwebb.com.
+$ORIGIN victormfg.com.
+localhost	A	127.0.0.1
+;www		A	155.212.12.104
+www			A	144.121.25.1
+login		A	144.121.25.1
+assets		A	144.121.25.3
+;order		A	68.236.116.141
+;order		A	209.37.170.241
+search		A	68.236.116.144
+wcimages	CNAME	wcimages.fwwebb.com.
+www.test	A	192.168.20.99
+assets.test	A	192.168.20.99

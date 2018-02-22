@@ -1,0 +1,21 @@
+$ttl	38400
+@	84600	IN	SOA	postmaster.oconnor-senecal.com. root.postmaster.oconnor-senecal.com.  ( 
+	103 ; serial
+	3600 ; refresh
+	7200 ; retry
+	604800 ; expire
+	86400 ; TTL
+	) 
+	84600   IN  NS ns1.fwwebb.com.
+	84600   IN  NS ns3.fwwebb.com.
+	84600	IN	MX 10 mail.fwwebb.com.
+
+;old   DNS1.VALUEWEB.COM            207.36.172.5
+;old   DNS2.VALUEWEB.COM            207.36.173.5
+;old   DNS3.VALUEWEB.COM            207.36.174.5
+
+;oconnor-senecal.com.	84600	IN	A	64.71.33.180
+oconnor-senecal.com.	84600	IN	A	144.121.25.3
+;www	84600	IN	A	64.71.33.180
+www	84600	IN	A	144.121.25.3
+

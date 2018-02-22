@@ -1,0 +1,28 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+allianceenvironmentalgroup.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2005070706
+			28800
+			14400
+			604800
+			900 )
+		NS	ns1.fwwebb.com.
+		NS	ns3.fwwebb.com.
+		A	209.37.170.233
+		MX	100	cust15336-1.in.mailcontrol.com.
+		MX	100	cust15336-2.in.mailcontrol.com.
+		;Allianceenvironmentalgroup-com.mail.protection.outlook.com
+
+$ORIGIN allianceenvironmentalgroup.com.
+cagnxl3nnv 	CNAME autodomain.mailcontrol.com
+$TTL 900	; 15 minutes
+www			CNAME	allianceenvironmentalgroup.com.
+;www	A	192.232.223.87
+;www	A	209.37.170.233
+;www	A	209.37.170.248
+test	A	10.94.167.14
+qa	A	10.94.166.14
+;test	A	10.94.164.221
+remote	A	71.245.68.134
+
+

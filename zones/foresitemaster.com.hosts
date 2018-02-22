@@ -1,0 +1,14 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+foresitemaster.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2004122002
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+			A	68.236.116.138
+			MX	10 mail.fwwebb.com.
+$ORIGIN foresitemaster.com.
+www			CNAME	foresitemaster.com.

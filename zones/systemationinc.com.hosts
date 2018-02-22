@@ -1,0 +1,22 @@
+$ttl	38400
+@	84600	IN	SOA	postmaster.systemationinc.com. root.postmaster.systemationinc.com.  ( 
+	103 ; serial
+	3600 ; refresh
+	7200 ; retry
+	604800 ; expire
+	86400 ; TTL
+	) 
+	84600   IN  NS ns1.fwwebb.com.
+	84600   IN  NS ns3.fwwebb.com.
+
+	84600	IN	MX	100	cust15336-1.in.mailcontrol.com.
+	84600	IN	MX	100	cust15336-2.in.mailcontrol.com.
+
+systemationinc.com.	84600	IN	A	204.8.124.200
+;systemationinc.com.	84600	IN	A	209.37.170.233
+;www	84600	IN	A	209.37.170.233
+www	CNAME systemationinc.com.
+test		A	10.94.167.14
+qa			A	209.37.170.234
+prod		A	209.37.170.233
+

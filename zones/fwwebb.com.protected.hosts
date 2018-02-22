@@ -1,0 +1,71 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+fwwebb.com	IN	SOA	ns1.fwwebb.com. root.fwwebb.com. (
+			2004082311
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+			MX	10 mail.fwwebb.com.
+			A	10.94.10.109
+$ORIGIN fwwebb.com.
+ns1	A	68.236.116.132
+ns3	A	216.204.252.36
+
+fw1                     A	10.94.185.2
+fw1-dr                  A	10.1.185.2
+fw1-new                 A	10.94.185.21
+fw2                     A	10.94.185.3
+fw2-dr                  A	10.1.185.3
+fw2-new                 A	10.94.185.22
+panther2.fwwebbcorp     A	10.94.1.81
+panther4.fwwebbcorp     A	10.94.1.80
+panther6.fwwebbcorp     A	10.1.0.96
+hvac                    A	10.94.1.40
+im                      A	10.94.185.11
+imap                    IN	CNAME	mail.fwwebb.com.
+localhost               A	127.0.0.1
+lynx4                   A	10.94.10.109
+mail                    A	10.94.0.211
+mailadmin               A	10.94.0.212
+mailhelp                A	10.94.0.212
+mits                    A	10.94.1.125
+ofmip                   A	10.94.0.213
+payroll-budget          A	10.94.185.13
+phocas                  A	10.1.185.88
+pop3                    A	10.94.0.211
+scvsstest               A	10.94.0.221
+secure                  A	10.94.10.109
+serval1                 A	10.94.2.180
+serval2                 A	10.94.2.181
+sevco                   A	192.168.20.17
+slb1                    A	10.94.185.25
+slb2                    A	10.94.185.26
+smtp                    A	10.94.0.211
+smtp2                   A	10.94.0.211
+smtps                   A	10.94.148.10
+srv1                    A	10.94.185.29
+srv1-dr                 A	10.1.185.29
+srv2                    A	10.94.185.30
+captcha.test            A	192.168.20.99
+contactus.test          A	192.168.20.99
+training.test           A	192.168.20.99
+www.test                A	192.168.20.99
+test1                   A	10.94.0.211
+test2                   A	10.94.10.109
+testdns                 A	10.94.185.222
+uscotest                IN	CNAME	lynx4.fwwebb.com.
+utm                     A	10.94.194.1
+wd                      A	10.94.10.200
+wd1-new                 A	10.94.185.34
+webbconnect             A	10.94.10.109
+webbconnect4            A	10.94.10.109
+webbconnect4dr          A	10.201.4.109
+;webbconnect4            IN	CNAME	webbconnect.fwwebb.com.
+wwwsvn                  A	192.168.20.98
+testnewdns				A	10.1.2.3
+
+$INCLUDE	"/var/named/fwwebb.com.include";
+

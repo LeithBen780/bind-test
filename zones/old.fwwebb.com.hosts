@@ -1,0 +1,12 @@
+$ttl 38400
+fwwebb.com.	IN	SOA	srv1-dr.fwwebb.com. root.fwwebb.com. (
+			1196234036
+			10800
+			3600
+			604800
+			38400 )
+fwwebb.com.	IN	NS	srv1-dr.fwwebb.com.
+fw1-dr.fwwebb.com.	IN	A	216.204.252.34
+LaurenceMacCall.fwwebb.com.	IN	RP	lmaccall.fwwebb.com. lmaccall
+216.204.252.34.fwwebb.com.	IN	PTR	fw1-dr
+im.fwwebb.com.	IN	A	144.121.25.7

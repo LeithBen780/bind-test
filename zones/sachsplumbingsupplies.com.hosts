@@ -1,0 +1,19 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+sachsplumbingsupplies.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2005070710
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+;			A	67.225.165.30
+;			A	144.121.25.3
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+$ORIGIN sachsplumbingsupplies.com.
+$TTL 900	; 15 minutes
+www			CNAME	sachsplumbingsupplies.com.
+www.test				A	192.168.20.99
+asset.test				A	192.168.20.99

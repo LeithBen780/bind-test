@@ -1,0 +1,20 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+frankwebbhome.com		IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				2009050704
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+$ORIGIN frankwebbhome.com.
+localhost		A	127.0.0.1
+fwbc			A	144.121.25.8
+hpwc			A	68.236.116.150
+www			CNAME	frankwebbhome.com.
+products	CNAME	webbconnect.fwwebb.com.
+wcimages	CNAME	wcimages.fwwebb.com

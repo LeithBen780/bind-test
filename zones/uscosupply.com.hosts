@@ -1,0 +1,22 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+uscosupply.com  IN  SOA ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2004082311
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns3.fwwebb.com.
+			;A	68.236.116.135
+			;A	144.121.25.3
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+$ORIGIN uscosupply.com.
+www			CNAME	uscosupply.com.
+products	CNAME	uscorp.thomasnet-navigator.com.
+uscorp		IN	A	74.11.238.132
+im			IN	A	144.121.25.3
+test		A	10.94.167.14
+qa			A	10.94.166.14
+live		A	209.37.170.233

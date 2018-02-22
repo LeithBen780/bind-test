@@ -1,0 +1,24 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+centraldistributionsales.com	IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				2005050612 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+;			A	155.212.12.104
+;			A	144.121.25.3
+			A	209.37.170.233
+			MX	10 mail.fwwebb.com.
+$ORIGIN centraldistributionsales.com.
+localhost		A	127.0.0.1
+www			CNAME	centraldistributionsales.com.
+assets		A	144.121.25.3
+order		A	68.236.116.142
+search		A	68.236.116.144
+www.test	A	192.168.20.99
+test		A	10.94.167.14
+qa			A	209.37.170.234

@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 900	; 2 hours
+webbuniversity.com		IN SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+				2008010101 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				604800     ; expire (1 week)
+				900       ; minimum (2 hours)
+				)
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+			A	155.212.12.104
+			MX	10 mail.fwwebb.com.
+$ORIGIN webbuniversity.com.
+localhost		A	127.0.0.1
+www			CNAME	webbuniversity.com.

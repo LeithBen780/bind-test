@@ -1,0 +1,45 @@
+$ORIGIN .
+$TTL 900        ; 15 minutes
+fwwebb.com      IN      SOA     ns1.fwwebb.com. webmaster.fwwebb.com. (
+                        267
+                        28800
+                        14400
+                        604800
+                        900 )
+                        NS      ns1.fwwebb.com.
+                        NS      ns3.fwwebb.com.
+;                        A       155.212.12.104
+;                        A       144.121.25.3
+                         A       209.37.170.233
+;                        A       209.37.170.235
+;                        MX        100       fwwebb.com.s6a1.psmtp.com.
+;                        MX        200       fwwebb.com.s6a2.psmtp.com.
+;                        MX        300       fwwebb.com.s6b1.psmtp.com.
+;                        MX        400       fwwebb.com.s6b2.psmtp.com.
+							MX	100	cust15336-1.in.mailcontrol.com.
+							MX	100	cust15336-2.in.mailcontrol.com.
+$ORIGIN fwwebb.com.
+$TTL 900        ; 15 minutes
+;mailserver.fwwebb.com.  TXT     "v=spf1 ip4:144.121.25.5 a mx:fwwebb.com ~all"
+;mailserver.fwwebb.com.  TXT     "spf2.0/pra a mx -all"
+;mailserver.fwwebb.com.	TXT		"v=spf1 ip4:144.121.25.5 a mx a:fw2.fwwebb.com -all"
+
+;fwwebb.com. 			TXT		"v=spf2.0/pra a mx include:mailserver.fwwebb.com ~all"
+;fwwebb.com. 			TXT		"v=spf1 ip4:144.121.25.5 a mx include:mailserver.fwwebb.com ~all"
+;fwwebb.com. 			SPF		"v=spf1 ip4:144.121.25.5 a mx -all"
+;fwwebb.com.				SPF		"v=spf1 ip4:144.121.25.5 a mx a:fw2.fwwebb.com -all"
+
+mail.fwwebb.com.  TXT     "v=spf1 ip4:209.37.170.235 a mx:fwwebb.com ~all"
+mail.fwwebb.com.  TXT     "spf2.0/pra a mx -all"
+mail.fwwebb.com.	TXT		"v=spf1 ip4:209.37.170.235 a mx a:mail.fwwebb.com -all"
+;fwwebb.com. 			TXT		"v=spf1 ip4:209.37.170.224/27 a mx include:mailserver.fwwebb.com ~all"
+fwwebb.com. 			TXT		"v=spf1 ip4:209.37.170.224/27 a -all"
+fwwebb.com. 			SPF		"v=spf1 ip4:209.37.170.224/27 a -all"
+
+
+emailreg216fd6e1b9112ecc	IN	CNAME	emailreg.org.
+cust15336-1.in.mailcontrol.com.	A	208.87.233.190
+cust15336-2.in.mailcontrol.com.	A	208.87.234.190
+
+$INCLUDE	"/var/named/fwwebb.com.include";
+

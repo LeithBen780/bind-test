@@ -1,0 +1,18 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+webbwatersystems.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2005070709
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+;			A	155.212.12.104
+			A	144.121.25.3
+			MX	10 mail.fwwebb.com.
+$ORIGIN webbwatersystems.com.
+$TTL 900	; 15 minutes
+www			CNAME	webbwatersystems.com.
+www.test				A	192.168.20.99
+assest.test				A	192.168.20.99

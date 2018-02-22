@@ -1,0 +1,14 @@
+$ORIGIN .
+$TTL 900	; 15 minutes
+4sitemaster.com	IN	SOA	ns1.fwwebb.com. webmaster.fwwebb.com. (
+			2004122003
+			28800
+			14400
+			604800
+			900 )
+			NS	ns1.fwwebb.com.
+			NS	ns2.fwwebb.com.
+			A	10.94.0.218
+			MX	10 mail.fwwebb.com.
+$ORIGIN 4sitemaster.com.
+www			CNAME	4sitemaster.com.

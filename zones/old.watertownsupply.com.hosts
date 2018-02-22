@@ -1,0 +1,24 @@
+$ORIGIN .
+$TTL 900        ; 15 minutes
+watertownsupply.com     IN SOA  ns1.fwwebb.com. webmaster.fwwebb.com. (
+		2014102901 ; serial
+		28800      ; refresh (8 hours)
+		14400      ; retry (4 hours)
+		604800     ; expire (1 week)
+		900        ; minimum (15 minutes)
+		)
+		NS      ns1.fwwebb.com.
+		NS      ns2.fwwebb.com.
+		A       155.212.12.47
+		;MX      10 mail.mmcis.com.
+		MX	100	cust15336-1.in.mailcontrol.com.
+		MX	100	cust15336-2.in.mailcontrol.com.
+$ORIGIN watertownsupply.com.
+catalog		A       155.212.12.152
+ftp			CNAME   trib.mmcis.com.
+localhost	A       127.0.0.1
+www			CNAME   watertownsupply.com.
+stayj		CNAME   watertownsupply.com.
+;cc4t4tfp76	A		86.111.217.190
+cc4t4tfp76	CNAME 	autodomain.mailcontrol.com.
+qa				A	209.37.170.234

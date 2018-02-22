@@ -1,0 +1,24 @@
+$ttl	38400
+@	84600	IN	SOA	postmaster.osisales.net. root.postmaster.osisales.net.  ( 
+	103 ; serial
+	3600 ; refresh
+	7200 ; retry
+	604800 ; expire
+	86400 ; TTL
+	) 
+	84600   IN  NS ns1.fwwebb.com.
+	84600   IN  NS ns3.fwwebb.com.
+;	84600	IN	MX 10 mail.fwwebb.com.
+;    84600   MX        100       fwwebb.com.s6a1.psmtp.com.
+;    84600   MX        200       fwwebb.com.s6a2.psmtp.com.
+;    84600   MX        300       fwwebb.com.s6b1.psmtp.com.
+;    84600   MX        400       fwwebb.com.s6b2.psmtp.com.
+	84600	MX	100	cust15336-1.in.mailcontrol.com.
+	84600	MX	100	cust15336-2.in.mailcontrol.com.
+
+
+;osisales.net.	84600	IN	A	64.71.33.180
+osisales.net.	84600	IN	A	144.121.25.3
+;www	84600	IN	A	64.71.33.180
+www	84600	IN	A	144.121.25.3
+

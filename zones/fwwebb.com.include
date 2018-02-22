@@ -1,0 +1,224 @@
+baycat	A	68.236.116.130
+bb	A	155.212.12.104
+;bb	IN	CNAME	fwwebb.com.
+doc	A	68.236.116.132
+caracal	A	68.236.116.137
+;redsoxsweeps	A	144.121.25.3
+;greenmonster	A	144.121.25.3
+;fenwayyardsale	A	144.121.25.3
+;bradfordwhite	A	144.121.25.3
+;trioboiler	A	144.121.25.3
+;submittals	A	144.121.25.3
+;promo-nhms	A	144.121.25.3
+;promo	A	144.121.25.3
+;www.promo	A	144.121.25.3
+;contactus	A	144.121.25.3
+;captcha	A	144.121.25.3
+foresitemaster	A	68.236.116.138
+ftp	IN	CNAME	secure
+webbftp	A	144.121.25.6
+fw	IN	CNAME	baycat
+fw1	A	144.121.25.6
+;fw2	A	216.204.242.29
+fw2	A	209.37.170.235
+fwwebbfw	IN	CNAME	baycat
+;fwwebbimage	A	68.236.116.146
+;fwwebbimage	A	216.204.242.27
+fwwebbimage	A	209.37.170.237
+hpwc	A	68.236.116.150
+hvac	A	68.236.116.132
+imap	IN	CNAME	mail
+info	A	144.121.25.4
+localhost	A	127.0.0.1
+;kronos	IN	CNAME	mail
+;lynx4	A	68.236.116.143
+;	was	131
+;xxxmail	A	68.236.116.132
+;mail	A	216.204.242.30
+mail	A	209.37.170.235
+websensemail	A	209.37.170.236
+mailhelp	A	144.121.25.2
+;mits	A	68.236.116.136
+webbscan	A	68.236.116.136
+;mobilewebbScan	A	216.204.242.29
+;mobilewebbCoder	A	216.204.242.29
+;mobileshopList	A	216.204.242.29
+mobilewebbScan	A	209.37.170.233
+mobilewebbCoder	A	209.37.170.233
+mobileshopList	A	209.37.170.233
+;### New Test MobilApps ###
+mobilewebbScannew	A	209.37.170.233
+mobilewebbCodernew	A	209.37.170.233
+mobileshopListnew	A	209.37.170.233
+;### End New Test MobilApps ###
+
+test.mobilewebbScan	A	209.37.170.239
+test.mobilewebbCoder	A	209.37.170.239
+test.mobileshopList	A	209.37.170.239
+
+qa.mobilewebbScan	A	209.37.170.234
+qa.mobilewebbCoder	A	209.37.170.234
+qa.mobileshopList	A	209.37.170.234
+
+testwebbscan	A	209.37.170.234
+testwebbcoder	A	209.37.170.234
+testshoplist	A	209.37.170.234
+testqa		A	209.37.170.250
+;nhmssnobowl	A	144.121.25.3
+;### Verizon ###
+ns1 A   209.37.170.234
+;### AT&T ###
+ns2 A   12.15.136.228
+;### AT&T ###
+ns3 A   209.37.170.233
+;	was	131
+pop	A	68.236.116.132
+;pop3	IN	CNAME	pop
+puma	IN	CNAME	mail
+rsa	A	68.236.116.134
+scvsstest	A	68.236.116.132
+;search	IN	CNAME	mailhelp
+;secure	A	68.236.116.135
+search	A	68.236.116.144
+;serval	A	68.236.116.144
+;serval1	A	68.236.116.144
+test.sevco	A	68.236.116.144
+qa.sevco	A	209.37.170.234
+qa.www	A	209.37.170.234
+;sevco	A	144.121.25.3
+sevcot	A	68.236.116.132
+;fac76contractpricing	A	144.121.25.3
+www.fac76contractpricing	IN	CNAME	fac76contractpricing
+LION	A	20.0.0.209
+;order	A	68.236.116.143
+;smtp	A	68.236.116.151
+smtp	A	209.37.170.235
+mailserver	A	144.121.25.5
+mailserv	IN	CNAME	mailserver
+;mymailadmin	A	216.204.242.28
+mymailadmin	A	209.37.170.235
+smtp2	A	144.121.25.5
+;smtps	A	216.204.242.30
+;webmail	A	216.204.242.28
+smtps	A	209.37.170.235
+webmail	A	209.37.170.235
+uscotest	IN	CNAME	lynx4
+victormfgtest	IN	CNAME	lynx4
+voipticket	A	68.236.116.156
+;wcimages	A	68.236.116.145
+;wcimages	A	216.204.242.27
+wcimages	A	209.37.170.237
+imageserver1	A 10.94.164.186
+imageserver2	A 10.94.164.187
+wd1	A	144.121.25.6
+wd2	A	68.236.116.156
+;wd	A	144.121.25.7
+wd	A	209.37.170.228
+watchdog	A	209.37.170.232
+webbrdp	A	209.37.170.231
+;im	A	144.121.25.7
+im	A	209.37.170.228
+vpncheck	A	68.236.116.153
+vpnclient	A	209.37.170.231
+webvpn		A	209.37.170.254
+;vpnclient	A	216.204.242.29
+;enews	A	68.236.116.153
+enews		A	209.37.170.233
+;filemanager	A	68.236.116.147
+;filemanager	A	216.204.242.28
+;filemanager	A	209.37.170.235
+filemanager	A	209.37.170.248
+newfilemanager	A	209.37.170.248
+filemanagerqa	A	209.37.170.234
+;speedtest	A	68.236.116.147
+;speedtest	A	216.204.242.28
+speedtest	A	209.37.170.233
+dmzspeedtest	A	192.168.20.17
+www.enews	A	68.236.116.153
+webbtest	A	216.204.252.36
+wd-dr	A	216.204.252.36
+webbtest	A	216.204.252.36
+services	A	10.94.166.14
+itmenu	A	10.94.166.14
+b2euvcrm	A	10.94.212.188
+testwebbconnect	A	209.37.170.228
+;webbconnect	A	68.236.116.143
+;webbconnect4	A	68.236.116.142
+;mobilesearch	A	68.236.116.143
+;webbkit	A	68.236.116.143
+;websalescal	A	216.204.242.28
+test.websalescal	A	216.204.242.29
+websalescalqa	A	209.37.170.234
+testweb	A	209.37.170.227
+;www	IN	CNAME	fwwebb.com.
+www.info	IN	CNAME	info
+www.test	A	192.168.20.99
+contactus.test	A	192.168.20.99
+captcha.test	A	192.168.20.99
+training.test	A	192.168.20.99
+;	this	is	required	by	some	mail	servers	to	accept	mail
+host-65-126-245-80	A	65.126.245.80
+host-68-236-116-130	A	68.236.116.130
+host-68-236-116-131	A	144.121.25.1
+host-68-236-116-132	A	68.236.116.132
+host-68-236-116-152	A	144.121.25.5
+host-68-236-116-157	A	144.121.25.7
+utm	A	74.9.53.130
+utm	MX	100	utm.fwwebb.com.
+
+;#######################################################################
+;### OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD ###
+;#######################################################################
+;webbconnect4	A	68.236.116.142
+;secure	A	68.236.116.135
+;lynx4	A	68.236.116.143
+;order	A	68.236.116.143
+;webbconnect	A	68.236.116.143
+;mobilesearch	A	68.236.116.143
+;webbkit	A	68.236.116.143
+;#####################################################################
+
+;#######################################################################
+;### NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW ###
+;#######################################################################
+cdrfw		A	209.37.170.228
+tcdrfw		A	209.37.170.228
+prod		A	209.37.170.233
+www			A	209.37.170.233
+www2016		A	209.37.170.233
+crm			A	209.37.170.233
+websalescal	IN CNAME	crm
+testsvn		A	209.37.170.233
+www.qa		A	209.37.170.234
+pipeline		A	209.37.170.234
+qa				A	209.37.170.234
+qapayeezy	A	209.37.170.234
+qa2016		A	209.37.170.234
+crmqa			A	209.37.170.234
+ip				A	209.37.170.234
+test			A	209.37.170.239
+test2016		A	209.37.170.239
+www.devel	A	209.37.170.239
+develop		A	209.37.170.239
+kronos		A	209.37.170.240
+survey		A	209.37.170.233
+
+secure		A	209.37.170.244
+webbconnect4	A	209.37.170.242
+wc4	A	209.37.170.242
+lynx4		A	209.37.170.243
+order		A	209.37.170.243
+ordering	A	209.37.170.241
+testordering	A	209.37.170.241
+#testordering	A	10.94.10.111
+webbconnect	A	209.37.170.243
+webbconnect4dr          A	10.1.0.112
+webbconnectdevel	IN	CNAME	webbconnect
+mobilesearch	A	209.37.170.243
+webbkit		A	209.37.170.243
+picklocks	A	209.37.170.226
+payeezy	A	209.37.170.249
+;#######################################################################
+;plastics	IN CNAME uscorp.stage.thomasnet-navigator.com.
+plastics	IN CNAME thomasnet-navigator.com.
+;plastics	IN CNAME plastics.thomasnet-navigator.com.
